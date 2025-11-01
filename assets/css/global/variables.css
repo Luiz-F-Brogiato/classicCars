@@ -1,0 +1,18 @@
+:root {
+  /* Paleta "Classic Modern" */
+  --color-primary: #D9791B;      /* Laranja retrô */
+  --color-secondary: #006D77;    /* Azul petróleo */
+  --color-tertiary: #003C46;     /* Azul escuro vintage */
+  --color-accent: #00B4B4;       /* Ciano claro (detalhes/botões) */
+  --color-bg: #F5F1EB;           /* Fundo (bege suave) */
+  --color-text: #1E1E1E;         /* Texto principal (preto suave) */
+  --color-text-alt: #F8F9FA;     /* Texto secundário (branco gelo) */
+  --font-size-xs: clamp(0.75rem, 0.7rem + 0.2vw, 0.85rem);   /* pequenos detalhes */
+  --font-size-sm: clamp(0.9rem, 0.8rem + 0.4vw, 1rem);       /* texto secundário */
+  --font-size-md: clamp(1rem, 0.9rem + 0.5vw, 1.125rem);     /* texto padrão */
+  --font-size-lg: clamp(1.25rem, 1.1rem + 0.7vw, 1.5rem);    /* subtítulos */
+  --font-size-xl: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);     /* títulos */
+  --font-size-xxl: clamp(2.5rem, 2rem + 2vw, 3.5rem);        /* títulos principais */
+  --font-size-display: clamp(3rem, 2.5rem + 3vw, 5rem);   
+
+}

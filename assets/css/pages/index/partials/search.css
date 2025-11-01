@@ -1,0 +1,19 @@
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw;
+    flex-direction: column;
+}
+
+
+.search > button {
+    margin-top: 2vw;
+    padding: 1vw 2vw;
+    font-size: var(--font-size-md);
+    color: var(--color-text-alt);
+    background-color: var(--color-accent);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

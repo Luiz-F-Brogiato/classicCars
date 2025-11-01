@@ -1,0 +1,46 @@
+h2 {
+    font-size: var(--font-size-lg);
+    font-weight: 900;
+    text-align: center;
+}
+
+* {
+        font-family: 'Montserrat', sans-serif;
+        transition: 0.2s ease;
+}
+
+p {
+    line-height: 1.5;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: var(--font-size-sm);
+    text-align: center;
+    padding: 2vw;
+    background-color: var(--color-secondary);
+    color: var(--color-text-alt);   
+    margin-top: 5vh;
+}
+
+input {
+    width: 40vw;
+    padding: 1vw;
+    font-size: var(--font-size-md);
+    border: 2px solid var(--color-secondary);
+    border-radius: 5px;
+}
+
+
+button:hover {
+ 
+    background-color: var(--color-text);
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--color-accent);
+    cursor: pointer;
+}
